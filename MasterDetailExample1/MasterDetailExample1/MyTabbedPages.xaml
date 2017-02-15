@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:myLocal="clr-namespace:MasterDetailExample1;assembly=MasterDetailExample1"
+             x:Class="MasterDetailExample1.MyTabbedPages">
+  
+  <!--<myLocal:Page4 Title="Page4" Icon="block.png" />
+  <myLocal:Page5 Title="Page5" Icon="book.png" />
+  <myLocal:Page6 Title="Page6" Icon="alarmclock.png" />
+  <myLocal:Page7 Title="Page7" Icon="dglasses.png" />-->
+  
+  <!--<NavigationPage>
+    <x:Arguments>
+      <myLocal:Page4 Title="Page_41" Icon="icon.png" />
+    </x:Arguments>
+  </NavigationPage>
+  <myLocal:Page4 Title="Page4_2" Icon="icon.png" />-->
+</TabbedPage>

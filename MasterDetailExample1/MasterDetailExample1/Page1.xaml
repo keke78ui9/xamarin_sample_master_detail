@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailExample1.Page1">
+  <StackLayout VerticalOptions="StartAndExpand">
+    <Label Text="Page1" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Button Text="To Page2" Clicked="Test1_Clicked" x:Name="test1"   />
+    <Button Text="To Page4" Clicked="Test2_Clicked" x:Name="test2" />
+    <Button Text="Change to Master Page 2" Clicked="Test3_Clicked" x:Name="test3" />
+    
+  </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailExample1.Login">
+  <StackLayout VerticalOptions="StartAndExpand">
+    <Entry x:Name="user" Placeholder="User Name" />
+    <Entry x:Name="password" IsPassword="true" Placeholder="Password" />
+    <Button Text="Login" Clicked="LoginClicked" />
+  </StackLayout>
+
+</ContentPage>
